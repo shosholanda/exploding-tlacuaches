@@ -57,7 +57,7 @@ Los ciclos del proyecto (así les llama Maven) que deben pasar son
 - mvn test
 - mvn install
 
-Este último genera un archivo jar ejecutable para correr el juego.
+Por último ejecutamos la aplicacion como
 ```bash
-$ java -jar exploding-tlacuaches-1.jar
+$ mvn clean javafx:run
 ```
