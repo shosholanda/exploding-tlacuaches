@@ -9,7 +9,7 @@
 
   <name>exploding-tlacuaches</name>
   <!-- FIXME change it to the project's website -->
-  <url>http://www.example.com</url>
+  <url>https://github.com/shosholanda/exploding-tlacuaches</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -49,6 +49,13 @@
       <groupId>org.openjfx</groupId>
       <artifactId>javafx-controls</artifactId>
       <version>${javafx.version}</version>
+    </dependency>
+
+    <!-- JAVA FXML -->
+    <dependency>
+      <groupId>org.openjfx</groupId>
+      <artifactId>javafx-fxml</artifactId>
+      <version>21</version> <!-- Needed for FXMLLoader -->
     </dependency>
   </dependencies>
 
